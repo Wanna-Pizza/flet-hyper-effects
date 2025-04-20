@@ -1,0 +1,7 @@
+site_name: FletHyperEffects
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
