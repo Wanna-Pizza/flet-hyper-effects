@@ -1,5 +1,3 @@
-API_KEY = "AIzaSyAWuWlyLEOgFoclwY12P1I_OJ-4cNgvCDw"
-
 import requests
 from enum import Enum
 

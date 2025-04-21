@@ -13,9 +13,9 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://mydomain.dev"
-Documentation = "https://github.com/MyGithubAccount/flet-hyper-effects"
-Repository = "https://github.com/MyGithubAccount/flet-hyper-effects"
-Issues = "https://github.com/MyGithubAccount/flet-hyper-effects/issues"
+Documentation = "https://github.com/Wanna-Pizza/flet-hyper-effects"
+Repository = "https://github.com/Wanna-Pizza/flet-hyper-effects"
+Issues = "https://github.com/Wanna-Pizza/flet-hyper-effects/issues"
 
 [tool.setuptools.package-data]
 "flutter.flet_hyper_effects" = ["**/*"]
