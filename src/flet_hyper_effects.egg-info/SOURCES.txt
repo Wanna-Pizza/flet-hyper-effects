@@ -2,6 +2,7 @@ README.md
 pyproject.toml
 src/flet_hyper_effects/__init__.py
 src/flet_hyper_effects/flet_hyper_effects.py
+src/flet_hyper_effects/google_fonts_enum.py
 src/flet_hyper_effects.egg-info/PKG-INFO
 src/flet_hyper_effects.egg-info/SOURCES.txt
 src/flet_hyper_effects.egg-info/dependency_links.txt
@@ -16,3 +17,4 @@ src/flutter/flet_hyper_effects/lib/flet_hyper_effects.dart
 src/flutter/flet_hyper_effects/lib/src/create_control.dart
 src/flutter/flet_hyper_effects/lib/src/flet_hyper_effects.dart
 src/flutter/flet_hyper_effects/lib/src/flet_roll_text.dart
+src/flutter/flet_hyper_effects/lib/src/flet_translate_text.dart

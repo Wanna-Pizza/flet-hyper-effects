@@ -1,1 +1,2 @@
-from flet_hyper_effects.flet_hyper_effects import FletHyperEffects, HyperEffectsRoll
+from flet_hyper_effects.flet_hyper_effects import HyperEffectsRoll,HyperEffectsType
+from flet_hyper_effects.google_fonts_enum import GoogleFont
