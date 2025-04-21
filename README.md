@@ -11,7 +11,7 @@ Link to git repository:
 
 ```
 dependencies = [
-  "flet-hyper-effects @ git+https://github.com/MyGithubAccount/flet-hyper-effects",
+  "flet-hyper-effects @ git+https://github.com/Wanna-Pizza/flet-hyper-effects",
   "flet>=0.27.6",
 ]
 ```
