@@ -92,11 +92,9 @@ class _TagLineState extends State<TagLine> {
 
   @override
   Widget build(BuildContext context) {
-    // Определяем шрифт - по умолчанию GloriaHallelujah или выбранный пользователем
     TextStyle textStyle;
 
     if (widget.font != null && widget.font!.isNotEmpty) {
-      // Используем указанный пользователем шрифт
       textStyle = GoogleFonts.getFont(
         widget.font!,
         textStyle: TextStyle(
@@ -106,7 +104,6 @@ class _TagLineState extends State<TagLine> {
         ),
       );
     } else {
-      // Используем шрифт по умолчанию
       textStyle = GoogleFonts.gloriaHallelujah().copyWith(
         color: Colors.white,
         fontWeight: FontWeight.bold,
@@ -191,7 +188,6 @@ class _HyperEffectsRollControlState extends State<HyperEffectsRollControl> {
     final effectType = widget.control.attrString("effectType") ?? "roll";
     final font = widget.control.attrString("font");
 
-    // Проверяем изменения параметров
     bool shouldUpdateKey = false;
 
     if (value != null && value != _currentValue) {
@@ -219,11 +215,9 @@ class _HyperEffectsRollControlState extends State<HyperEffectsRollControl> {
       _widgetKey = UniqueKey();
     }
 
-    // Выбираем виджет в зависимости от типа эффекта
     Widget myControl;
 
     if (_currentEffectType == "translate") {
-      // Используем виджет Translation для эффекта translate
       myControl = Translation(
         key: _widgetKey,
         size: finalSize,
@@ -232,7 +226,6 @@ class _HyperEffectsRollControlState extends State<HyperEffectsRollControl> {
         font: _currentFont,
       );
     } else {
-      // По умолчанию используем TagLine для эффекта roll
       myControl = TagLine(
         key: _widgetKey,
         size: finalSize,

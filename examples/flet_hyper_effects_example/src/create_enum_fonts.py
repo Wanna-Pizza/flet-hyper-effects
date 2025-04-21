@@ -23,4 +23,4 @@ enum_code = "from enum import Enum\n\n\nclass GoogleFont(Enum):\n" + "\n".join(e
 with open("google_fonts_enum.py", "w", encoding="utf-8") as f:
     f.write(enum_code)
 
-print("✅ Enum класс сохранён в 'google_fonts_enum.py'")
+print("✅ Class saved to 'google_fonts_enum.py'")
